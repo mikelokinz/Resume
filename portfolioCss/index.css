@@ -1,0 +1,120 @@
+body {
+    background: #f4f4f4;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: #fff;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 40px 32px;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+}
+
+.name {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #22223b;
+    margin-bottom: 0.2em;
+    letter-spacing: 1px;
+}
+
+.role {
+    font-size: 1.2rem;
+    color: #4a4e69;
+    margin-bottom: 1.5em;
+    font-weight: 500;
+}
+
+.contact-link {
+    display: inline-block;
+    margin-bottom: 2em;
+    color: #fff;
+    background: #22223b;
+    padding: 0.5em 1.2em;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+.contact-link:hover {
+    background: #4a4e69;
+}
+
+.section-title {
+    font-size: 1.3rem;
+    color: #22223b;
+    border-bottom: 2px solid #c9ada7;
+    padding-bottom: 0.2em;
+    margin-top: 2em;
+    margin-bottom: 0.7em;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.about-text {
+    color: #444;
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 1.5em;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.5em 0;
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+.skill-item {
+    background: #c9ada7;
+    color: #fff;
+    padding: 0.4em 1em;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-bottom: 0.5em;
+}
+
+
+
+.resume-link {
+    margin-top: 1.5em;
+    font-size: 1rem;
+    color: #22223b;
+}
+.resume-anchor {
+    color: #22223b;
+    background: #f2e9e4;
+    padding: 0.3em 0.8em;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+.resume-anchor:hover {
+    background: #c9ada7;
+    color: #fff;
+}
+
+.social-link {
+    margin-top: 1.5em;
+    font-size: 1rem;
+    color: #22223b;
+}
+.social-anchor {
+    color: #22223b;
+    background: #f2e9e4;
+    padding: 0.3em 0.8em;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+.social-anchor:hover {
+    background: #c9ada7;
+    color: #fff;
+}
